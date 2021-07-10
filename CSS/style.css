@@ -72,9 +72,9 @@ table {
   .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .header h1 a {
-    margin: 10px 15px;
     background: url(https://upload.cc/i1/2021/07/09/ylOJrQ.png);
     width: 171px;
     height: 36px;
@@ -83,8 +83,8 @@ table {
     text-indent: 101%;
     display: block;
   }
-  .menu li {
-    float: left;
+  .menu{
+    display: flex;
   }
   .menu a {
     text-decoration: none;
@@ -107,6 +107,7 @@ table {
     height: 346px;
     display: flex;
     align-items: center;
+    margin-top: -12px;
   }
   .banner h2 {
     font-size: 35px;
